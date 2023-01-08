@@ -9,7 +9,8 @@ public:
 	Stonewt(double lbs);
 	Stonewt(int stn, double lbs);
 	~Stonewt();
-
+	void show_lbs()const;
+	void show_stn()const;
 private:
 	enum
 	{
